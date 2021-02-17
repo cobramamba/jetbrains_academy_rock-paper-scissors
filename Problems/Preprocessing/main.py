@@ -1,0 +1,6 @@
+string1 = input()
+string2 = string1.replace(",", "")
+string2 = string2.replace(".", "")
+string2 = string2.replace("!", "")
+string2 = string2.replace("?", "")
+print(string2.lower())
